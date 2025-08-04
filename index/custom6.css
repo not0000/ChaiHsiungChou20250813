@@ -1,0 +1,661 @@
+/*leo move arrow icon from left to right side 把箭頭移到右側*/
+.ui-accordion-icons .ui-accordion-header a { padding-left: 0.3em; } 
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: 100%; margin-left: -30px; top: 50%; margin-top: -8px; }
+
+/*Leo add 子項目內容背景圖設定*/
+
+
+/* reset */
+body, div, ul, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td {
+	margin:0;
+	padding:0;
+	
+} 
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+img {
+	border:0;
+}
+ul {
+	list-style:none;
+}
+a, a:hover, a:active, a:focus{
+	text-decoration:none;
+	border:none;
+	outline:none;
+	/*color:#ffd4e6;*/
+	/***color:#fdffc8;***/
+	}
+:focus {
+    outline: 0;
+}
+/* reset */
+
+html { 
+overflow-x: hidden; overflow-y: auto; 
+}
+
+
+/*Leo add 背景顏色*/
+body {
+	background-color:#000000;
+	
+		
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+	
+}	
+
+/*
+.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {style: clear }
+*/
+
+
+
+/*預載圖片*/
+#preload-01 { background: url(images/bg_buttons_on.png) no-repeat -9999px -9999px; }
+/*
+#preload-01 { background: url(images/bg_tl.gif) no-repeat -9999px -9999px; }
+#preload-02 { background: url(images/bg_tm.gif) no-repeat -9999px -9999px; }
+#preload-03 { background: url(images/bg_tr.gif) no-repeat -9999px -9999px; }
+*/
+
+/*====主頁外框 Start====*/
+/*框內的高度及寬度都會變化*/
+
+#MainContent{
+		max-width:320px;
+		margin: 0 auto;
+		background: url(images/bg.jpg);
+		background-size: 100%;
+}
+
+#outter{
+/*外框*/
+
+}
+
+.outter-main-tl{
+/*左上框*/
+	font-size:15%; /*fix IE6*/
+}
+.outter-main-tm{
+/*上框*/
+	font-size:15%; /*fix IE6*/
+}
+.outter-main-tr{
+/*右上框*/
+	font-size:15%; /*fix IE6*/
+}
+.outter-main-bl{
+/*左下框*/
+	font-size:15%; /*fix IE6*/
+}
+.outter-main-bm{
+/*下框*/
+	font-size:15%; /*fix IE6*/
+	
+}
+.outter-main-br{
+/*右下框*/
+	font-size:15%; /*fix IE6*/
+}
+.outter-main-ml{
+/*左框*/
+	width:auto;
+}
+.outter-main-mr{
+/*右框 内容*/
+	width:auto;
+}
+
+.outter-main-mm{
+/*中框*/
+}
+
+/*====主頁外框 End====*/
+
+
+/*====主頁內框 Start====*/
+/*
+注意主頁內框的上框及下框要留足夠的高度給上標及下標題文字顯示
+height:40px 以上比較保險;
+
+*/
+#inner{
+	
+}
+
+.inner-main-tl{
+/*左上框*/
+}
+.inner-main-tm{
+/*上框*/
+
+}
+.inner-main-tr{
+/*右上框*/
+}
+.inner-main-bl{
+/*左下框*/
+}
+.inner-main-bm{
+/*下框*/
+}
+.inner-main-br{
+/*右下框*/
+}
+.inner-main-ml{
+/*左框*/
+}
+.inner-main-mr{
+/*右框 内容*/
+position:relative;
+
+}
+
+
+#frame1_1{
+	
+	background: center top url(images/frame_top.png) no-repeat;	
+	position:absolute;
+	background-size: 100% 107px;
+	height: 121px;
+	width: 100%;
+	top: 0px;
+	z-index: 101;
+
+}
+
+#frame1_2{
+
+}
+#frame1_3{
+
+}
+
+
+#frame2_1{
+
+	position:absolute;
+	background: center center url(images/frame_middle.png) repeat-y;	
+	background-size: 100%;
+	height:100%;
+	width: 100%;
+	top: 0px;
+	z-index: 100;
+}
+
+#frame2_2{
+
+}
+#frame2_3{
+
+	
+}
+
+
+
+#frame3_1{
+	background: center bottom url(images/frame_bottom.png) no-repeat;	
+	background-size: 100% 115px;
+	bottom: 0px;
+	
+	position:absolute;
+	height:100%;
+	width: 100%;
+	z-index: 102;
+	
+
+}
+
+#frame3_2{
+}
+#frame3_3{
+}
+
+
+
+.inner-main-mm{
+	
+  min-height: 160px;
+  padding: 25px 48px 40px 48px;
+  
+  line-height : 160px;
+  text-align:center;
+  vertical-align:middle;
+  display: flex;
+  align-items: center;
+
+}
+
+/*====主頁內框 End====*/
+.inner-main-mm img{
+	
+	display:block;
+/*	width:100%;
+	height:100%; */
+	margin:0 auto;
+}
+
+#img_videobutton{
+	width: 50px;
+	height: 50px;
+	position:absolute;
+	background:url(images/icons/video.png) center center no-repeat;
+	background-size:contain;
+	z-index: 999;
+	top: -50px;
+	cursor:pointer;
+}
+
+
+/*====主頁內框 End====*/
+
+
+
+/*====Main-title Start====*/
+/*框內的高度及寬度都會變化*/
+
+#main-title{
+/*外框*/
+	
+ }
+
+
+#maintitlehtml span{ 
+
+}
+
+.main-title-tm{
+}
+
+
+
+.main-title-tl{
+}
+.main-title-tr{
+
+}
+
+.main-title-bm{
+
+}
+.main-title-bl{
+}
+.main-title-br{
+
+}
+
+
+
+.main-title-mr{
+/*左框*/
+}
+.main-title-ml{
+/*右框 内容*/
+	background: center bottom url(images/maintitle_bottom.png) no-repeat;
+	background-size: 100% 103px;
+}
+
+.main-title-mm{
+/*中框*/
+	width:100%;
+	min-height: 200px;  
+
+	background: center top url(images/maintitle_top.png) no-repeat;
+	background-size: 100% 113px;
+
+  
+
+}
+
+#maintitlehtml{
+	
+	/*text-shadow:0px 0px 0 rgb(108,108,108), 1px 1px 0 rgb(22,22,22),2px 2px 1px rgba(0,0,0,0.05),2px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2); 
+   -webkit-text-stroke: 1px black;
+   text-shadow:
+      0px  1px 0 #000,  
+      0px -1px 0 #000,  
+      1px  0px 0 #000,  
+     -1px 0px 0 #000,  
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	
+	*/
+	text-align:center;
+	padding:103px 10px 93px 10px;
+	
+	font-size:15%; /*fix IE6*/
+    vertical-align: middle;
+	line-height: 1.2;
+	color: #434343;
+}
+
+
+/*====main-title End====*/
+
+
+/*====Sub-title Start====*/
+/*框內的高度及寬度都會變化*/
+
+#sub-title{ 
+/*外框*/
+	 
+}
+
+.sub-title-tl{
+/*左上框*/
+	font-size:15%; /*fix IE6*/
+}
+.sub-title-tm{
+/*上框*/
+	font-size:15%; /*fix IE6*/
+}
+.sub-title-tr{
+/*右上框*/
+	font-size:15%; /*fix IE6*/
+}
+.sub-title-bl{
+/*左下框*/
+	font-size:15%; /*fix IE6*/
+}
+.sub-title-bm{
+/*下框*/
+	font-size:15%; /*fix IE6*/
+}
+.sub-title-br{
+/*右下框*/
+	font-size:15%; /*fix IE6*/
+}
+.sub-title-mr{
+/*左框*/
+}
+.sub-title-ml{
+/*右框 内容*/
+	background: center bottom url(images/subtitle_bottom.png) no-repeat;
+	background-size: 100% 87px;
+}
+
+.sub-title-mm{
+/*中框*/
+	background: center top url(images/subtitle_top.png) no-repeat;
+	background-size: 100% 66px;
+	text-align:center;
+
+	min-height: 100px;  
+
+
+ /* WebKit (Safari/Chrome) Only */
+ /* -webkit-text-stroke: 1px #474747; */
+  
+  /* If we weren't using text-shadow, we'd set a fallback color
+     and use this to set color instead
+    -webkit-text-fill-color: white; */
+  
+  
+
+}
+
+#subtitlehtml{
+	
+  line-height: 1.2;
+  padding: 39px 10px 88px 10px;
+  color: #434343;
+}
+
+#img_decoration3{
+ 
+
+}
+
+/*====sub-title End====*/
+
+
+
+
+/*====按鈕外框 Start====*/
+
+.button{
+/*最外框
+	background:url(images/btn_bg2.png) left 0px no-repeat;
+	*/
+		margin: 0px 0px 0px 0px;
+}
+
+.button *{
+/*最外框
+	background:url(images/btn_bg2.png) left 0px no-repeat;
+	*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+    outline-color: transparent;
+}
+
+
+
+/*框內的高度及寬度都會變化*/
+.button-tl{
+/*左上框*/
+}
+.button-tm{
+/*上框*/
+}
+.button-tr{
+/*右上框*/
+}
+.button-bl{
+/*左下框*/
+}
+.button-bm{
+/*下框*/
+}
+.button-br{
+/*右下框*/
+}
+.button-ml{
+/*左框*/
+}
+.ui-state-hover .button-ml{ 
+}
+
+.ui-state-active .button-ml{ 
+}
+
+
+.button-mr{
+/*右框 内容*/
+	width: 100%;
+	height:67px;
+	background: center center url(images/button.png) no-repeat;
+	background-size: 100% 67px;
+}
+
+.ui-state-active .button-mr, .ui-state-hover .button-mr{ 
+	background: center center url(images/button_on.png) no-repeat;
+	background-size: 100% 67px;
+}
+
+
+
+
+.button-mm{
+/*中框 */
+	height:67px;
+	/***background: center center url(images/bg_buttons.png) no-repeat;***/
+	text-align:left;
+
+}
+
+.ui-state-hover #button1 .button-mr,.ui-state-hover #button2 .button-mr,.ui-state-hover #button3 .button-mr,.ui-state-hover #button4 .button-mr,.ui-state-hover #button5 .button-mr,.ui-state-hover #button6 .button-mr,.ui-state-hover #button7 .button-mr,.ui-state-hover #button8 .button-mr,.ui-state-hover #button9 .button-mr,.ui-state-hover #button10 .button-mr{
+/***   background-image:url(images/bg_buttons_on.png); ***/
+}
+
+.ui-state-active #button1 .button-mr,.ui-state-active #button2 .button-mr,.ui-state-active #button3 .button-mr,.ui-state-active #button4 .button-mr,.ui-state-active #button5 .button-mr,.ui-state-active #button6 .button-mr,.ui-state-active #button7 .button-mr,.ui-state-active #button8 .button-mr,.ui-state-active #button9 .button-mr,.ui-state-active #button10 .button-mr{  }
+
+
+.ui-state-hover .button-mm, .ui-state-active .button-mm { 
+	
+	/***background: center center url(images/bg_buttons_on.png) no-repeat;***/
+}
+
+.ui-state-hover #button11 .button-mr,.ui-state-hover #button12 .button-mr,.ui-state-hover #button13 .button-mr,.ui-state-hover #button14 .button-mr,.ui-state-hover #button15 .button-mr{
+/***   background-image:url(images/bg_buttons_on.png); ***/
+}
+
+.ui-state-active #button11 .button-mr,.ui-state-active #button12 .button-mr,.ui-state-active #button13 .button-mr,.ui-state-active #button14 .button-mr,.ui-state-active #button15 .button-mr{  }
+
+
+.ui-state-hover .button-mm, .ui-state-active .button-mm { 
+	
+	/***background: center center url(images/bg_buttons_on.png) no-repeat;***/
+}
+
+.button-mm a{
+	width:100%
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	
+  vertical-align: middle;
+	position:relative;
+	display:block;
+	text-align: center;
+	height:67px;
+	font-weight: normal;
+	
+	}
+
+.iconimage{
+	
+	/**width: 32px;**/
+	width: 1px
+	margin-left: -30px; 
+	margin-top: 0px; 
+   vertical-align: middle;
+}
+.button-title{
+    display: inline-block;
+    height: 100%;
+    line-height: 67px;
+    vertical-align: middle;
+	color: #434343;
+	font-size:22px;
+/*	font-weight:bold; */ 
+	font-weight: normal;
+}
+
+
+
+.ui-state-hover .button-title, .ui-state-active .button-title { 
+}
+
+/*====按鈕外框 End====*/
+
+/*====內容外框 Start====*/
+
+.detail {
+/*最外框*/
+
+
+}
+
+
+/*框內的高度及寬度都會變化*/
+.detail-tl{
+/*左上框*/
+  
+	background: center top url(images/content_top.png) no-repeat;
+	background-size: 100% 14px;
+	height: 14px;
+  width: 100%;		
+}
+.detail-tm{
+/*上框*/
+}
+.detail-tr{
+/*右上框*/
+}
+.detail-bl{
+/*左下框*/
+
+	background: center bottom url(images/content_bottom.png) no-repeat;
+	background-size: 100% 53px;
+	height: 53px;
+  width: 100%;	
+
+}
+.detail-bm{
+/*下框*/
+}
+.detail-br{
+/*右下框*/
+}
+.detail-ml{
+/*左框*/
+
+	width:auto;
+	background: center center url(images/content_middle.png) repeat-y;  
+	background-size: 100%;
+  width: 100%;	
+
+}
+.detail-mr{
+/*右框 内容*/
+
+
+
+
+}
+
+/***
+#detail1 .detail-mr{ background-color: #e3b74b; }
+#detail2 .detail-mr{ background-color: #48cfae; }
+#detail3 .detail-mr{ background-color: #ea434b; }
+#detail4 .detail-mr{ background-color: #8dc153; }
+#detail5 .detail-mr{ background-color: #3fa2c5; }
+#detail6 .detail-mr{ background-color: #eb6950; }
+#detail7 .detail-mr{ background-color: #079065; }
+***/
+
+.detail-mm p{
+/*中框 */
+}
+
+.detail-mm {
+/*中框 */
+	/*color:#ffd4e6;*/
+	
+	width:auto;
+	/*color:#f8ff2d; */
+	color:#434343;
+	
+	padding: 8px 26px 0px 26px;
+	line-height:1.3;
+	/*letter-spacing:1px;*/
+	height:100%;
+}
+
+
+
+/*====內容外框 End====*/
+#footer{
+	height:109px;
+	background: center bottom url(images/copyright_bg.png) no-repeat;
+	background-size: 100% 109px;
+	font-size:15%; /*fix IE6*/
+	
+	}
+
+#copyright{
+
+}
+
+
+#copyright-text{
+	padding-top:94px;
+	font-size:14px;
+	color:#353535;
+	text-align:center;
+}
+
