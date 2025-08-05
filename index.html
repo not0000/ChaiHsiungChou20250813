@@ -15,89 +15,6 @@
 <meta property="og:description" content="2025年08月13日 上午10時00分 第二殯儀館至愛3廳 周財雄主內弟兄">
 
 
-<script type="text/javascript">
-
-        function RefreshImage(valImageId) {
-            var objImage = document.getElementById(valImageId)
-            if (objImage == undefined) {
-                return;
-            }
-            var now = new Date();
-            objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
-        }
-
-
-
-var instanceClose;
-function addWinOnloadEvent(func) {
-  var oldonload = window.onload;
-  if (typeof window.onload != 'function') {
-    window.onload = func;
-  } else {
-    window.onload = function() {
-      if (oldonload) {
-        oldonload();
-      }
-      func();
-    }
-  }
-}
-
-
-//
-function createRequest() {
-	try {
-		request = new XMLHttpRequest();
-	} catch (trymicrosoft) {
-		try {
-			request = new ActiveXObject("Msxml2.XMLHTTP");
-		} catch (othermicrosoft) {
-			try {
-				request = new ActiveXObject("Microsoft.XMLHTTP");
-			} catch (failed) {
-				request = false;
-			}
-		}
-	}
-	if (!request)
-		alert("ERROR XMLHttpRequest!");
-}
-
-function filterEmoji(text){
-    var ranges = [
-            '\ud83c[\udf00-\udfff]', 
-            '\ud83d[\udc00-\ude4f]', 
-            '\ud83d[\ude80-\udeff]'
-        ];
-    return text.replace(new RegExp(ranges.join('|'), 'g'), '');
-}
-
-
-
-
-function getMinTextInOrder(txt){
-	var txt_array_inorder = filterEmoji(txt).split('').sort();
-	
-	if (txt_array_inorder.length > 0) {
-		txt_min = txt_array_inorder[0]; 
-		prechr = txt_array_inorder[0];
-		for (i=1; i<txt_array_inorder.length; i++){
-			if (txt_array_inorder[i] != prechr){
-				prechr = txt_array_inorder[i];
-				txt_min = txt_min + txt_array_inorder[i];
-			}
-		}
-	} else {
-		txt_min = "";
-	}
-
-	return txt_min;	
-}
-
-
-</script>
-
-
 	<link rel="stylesheet" href="./index/animate.min.css">
     <link rel="stylesheet" href="./index/photoswipe.css"> 
     <link rel="stylesheet" href="./index/default-skin.leo.css"> 
@@ -630,8 +547,14 @@ if ('ontouchstart' in document.documentElement) {
 	<div class="invite_detail_editor" id="invite_detail_editor88476373">
     	<div style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;font-size:17px;"><p><span style="font-size:17px;"><span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">我們摯愛的周財雄主內弟兄，於主後2025年07月29日04時56分蒙主恩召，安息主懷，在世旅居68載。</span></span></p><p><br><span style="font-size:17px;">
 		<span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">謹擇於於主後2025年08月13日上午10時於第二殯儀館至愛3廳舉行安息禮拜，謹此邀請所有親友都來與我們一起追思悼念。</span></span><br>&nbsp;</p>
+		<p style="text-align: right;"><span style="font-size:17px;"><span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">孝男 周紘宇</span>
+	</span></p>
+		<p style="text-align: right;"><span style="font-size:17px;"><span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">孝女 周宛萱</span>
+	</span></p>
 		<p style="text-align: right;"><span style="font-size:17px;"><span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">全體家屬 鞠躬</span>
-	</span><br>&nbsp;</p><table border="0" cellpadding="1" cellspacing="1" style="width:100%">	
+	</span><br>&nbsp;</p>
+	
+	<table border="0" cellpadding="1" cellspacing="1" style="width:100%">	
 	<tbody>		
 	<tr>			
 	<td style="text-align:right; vertical-align:top; white-space:nowrap; width:5%"><span style="font-size:17px;">
@@ -659,7 +582,8 @@ if ('ontouchstart' in document.documentElement) {
 	<span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">電話：</span></span></td>
 	<td style="text-align:left; vertical-align:top">
 	<p><span style="font-size:17px;"><span style="font-family:粗鋼筆1,粗鋼筆10,微軟正黑體,microsoft jhenghei,microsoft yahei,arial;">(02)8732-9686</span></span></p>
-	</td>		</tr>		<tr>			<td style="text-align:right; vertical-align:top; white-space:nowrap; width:5%">&nbsp;</td>			<td style="text-align:left; vertical-align:top">&nbsp;</td>		</tr>	</tbody></table></div>
+	</td>		</tr>		<tr>			<td style="text-align:right; vertical-align:top; white-space:nowrap; width:5%">&nbsp;</td>
+	<td style="text-align:left; vertical-align:top">&nbsp;</td>		</tr>	</tbody></table></div>
 	</div>
     
 
